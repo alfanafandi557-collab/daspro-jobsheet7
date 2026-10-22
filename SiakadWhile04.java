@@ -8,10 +8,7 @@ public class SiakadWhile04 {
         int jml;
         jml = sc.nextInt();
         while (i < jml) {
-            i++;
-        }
-        while (i < jml) {
-           System.out.print("Masukkan nilai mahasiswa ke-" + (i +1 )+ ": ");
+           System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1 )+ ": ");
             nilai = sc.nextInt();
             if (nilai < 0 || nilai > 100) {
                 System.out.println("Nilai tidak valid. Masukkan nilai yang valid.");
@@ -34,5 +31,6 @@ public class SiakadWhile04 {
             }   
              i++;   
             }
+        sc.close();
         }
     }
